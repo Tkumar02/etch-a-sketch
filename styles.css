@@ -1,0 +1,23 @@
+.container{
+    display: grid;
+    grid-template-columns: repeat(100,1fr);
+    grid-auto-rows: 10px;
+}
+
+#choice{
+    background-color: beige;
+}
+
+.box{
+    background-color: plum;
+    border: 1px solid aquamarine;
+}
+
+.box:hover{
+    background-color: blue;
+}
+
+.change{
+    background-color: black;
+}
+
