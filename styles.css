@@ -1,7 +1,8 @@
 .container{
     display: grid;
-    grid-template-columns: repeat(100,1fr);
-    grid-auto-rows: 10px;
+    height: 500px;
+    width: 500px;
+    justify-content: center;
 }
 
 #choice{
@@ -9,15 +10,14 @@
 }
 
 .box{
-    background-color: plum;
-    border: 1px solid aquamarine;
+    background-color: lightgrey;
 }
 
 .box:hover{
-    background-color: blue;
+    background-color: aquamarine;
 }
 
-.change{
-    background-color: black;
-}
+/* .change{
+    background-color: blue;
+} */
 
